@@ -18,6 +18,6 @@ class LoanRead(BaseModel):
     borrower_name: NameStr
     loan_days: int
     purpose: PurposeStr
-    status: str
+    ##status: str
 
     
